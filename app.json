@@ -2,10 +2,14 @@
   "name": "Crocodile Game",
   "description": "A Telegram word-based game bot.",
   "keywords": ["telegram", "python"],
-  "repository": "https://github.com/PatheticProgrammers/CrocodileGame",
+  "repository": "https://github.com/Rishabhbhan5/CrocodileGame",
   "env": {
     "BOT_TOKEN": {
       "description": "A bot token from @BotFather.",
+      "required": true
+    },
+   "SUDO_USERS": {
+      "description": "A Sudo Users.",
       "required": true
     },
     "MONGO_URI": {
